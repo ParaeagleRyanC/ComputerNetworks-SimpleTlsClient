@@ -240,7 +240,7 @@ def parse_arguments():
         "--host",
         type=str,
         required=False,
-        default="lundrigan.byu.edu",  # fix me: localhost
+        default="localhost",
         help="Hostname to connect to.",
     )
     parser.add_argument(
